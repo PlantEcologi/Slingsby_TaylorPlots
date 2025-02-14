@@ -7,3 +7,5 @@ All data and repeatable R code work flows (R Markdown) used in the study are ava
 
 Updated to run on binder
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/PlantEcologi/Slingsby_TaylorPlots/HEAD)
+
+Note that you have to run install_versions.R before running any of the .Rmd files. The original analysis was performed in an older version of R than binder provides.
