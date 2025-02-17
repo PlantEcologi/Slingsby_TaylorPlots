@@ -1,4 +1,3 @@
-install.packages("rmarkdown")
 install.packages("ggplot2")
 install.packages("dplyr")
 install.packages("climdex.pcic")
@@ -10,3 +9,8 @@ install.packages("gdata")
 install.packages("doSNOW")
 install.packages("foreach")
 install.packages("MCMCpack")
+
+require(devtools)
+install_version("evaluate", version = "0.13", repos = "http://cran.us.r-project.org", upgrade = "never")
+install_version("rmarkdown", version = "2.10", repos = "http://cran.us.r-project.org", upgrade = "never")
+install_version("xfun", version = "0.21", repos = "http://cran.us.r-project.org", upgrade = "never")
